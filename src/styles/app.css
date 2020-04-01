@@ -1,0 +1,21 @@
+@tailwind base;
+/*@tailwind components;
+@tailwind utilities;*/
+
+body {
+  @apply bg-gray-900;
+}
+
+p>svg,
+span>svg,
+button>svg,
+h1 svg,
+h2 svg,
+h3 svg,
+h4 svg,
+h5 svg,
+h6 svg {
+
+  display: inline-block;
+
+}
